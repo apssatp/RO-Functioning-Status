@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>APSS ATP -RO Functioning Status </title>
+</head>
+<body>
+  <iframe src="https://script.google.com/macros/s/AKfycbzwdzPjitY__uW4215FsO-fvMj0Y3xFuo8bHnAwQQi6cBotNh4o5c1KfnICcNeMu2p3qQ/exec"
+    width="100%"
+    height="100%"
+    allowfullscreen="true"
+    style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+  
+  <script>
+    window.onload = function() {
+      document.querySelector('iframe').requestFullscreen().catch((err) => {
+        console.error(`Error attempting to enable full-screen mode: ${err.message}`);
+      });
+    };
+  </script>
+</body>
+</html>
